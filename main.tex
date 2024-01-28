@@ -1,0 +1,63 @@
+\documentclass{article}[10pt]
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+%\twocolumn
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage[notes,backend=biber]{biblatex-chicago}
+%\usepackage{cite}
+\bibliography{bib}
+
+\usepackage{lscape} %allows landscape page
+
+\usepackage{xcolor} % for the "DRAFT" header
+\usepackage{fancyhdr} % for the "DRAFT" header
+\pagestyle{fancy}
+
+\usepackage{amsmath}
+
+\title{Self-Replicating Trust Funds: UBI as a Virus}
+\author{Evin Tunador}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\hline
+\vspace{0.1in}
+\textcolor{red}{written 2023.2.4}\\
+
+Let’s say I have \$100,000,000. 
+Upon my death I gift 10 people \$10,000,000 dollars each in the form of a trust fund. 
+Money can be set to grow at a rate of between 4\% (conservative investments in stocks & bonds) or 7-9\% (long-term stock market returns) meaning an average growth between \$400,000 and \$9,000,000 per year in today’s dollars, depending on choice of investment. 
+The rules of the fund are as follows:
+
+\begin{itemize}
+    \item Refer to the \$10,000,000 as the “base amount”
+    \item Trustee can decide how to allocate investments of the base amount
+    \item Trustee receives let’s say 5x the national poverty level, so right now \$75,000 per year assuming a single-person household. 
+    Refer to this as the “yearly payment”
+    \item If at any point market conditions cause the yearly payment to become >1\% the size of the base amount, then the base amount is allowed to use any investment growth for the foreseeable future to build itself up until the >1\% condition is reached
+    \item All remaining money from growth is placed in a separate bucket, the “next-trust amount”
+    \item If/when the next-trust amount grows to such a point that it could itself also satisfy the >1\% condition on its own (AKA \$10,000,000), then a new trust fund is created which is in possession of this next-trust amount and has the exact same rules
+    \item Current trustee can gift said trust to a person of their choice that is not related by blood or family through marriage
+    \item A person can only own one Self-replicating/Virus Trust
+    \item For every 1 dollar earned by Trustee through other means such as a job, $\alpha$ dollars are deducted from that year’s yearly payment and redirected towards the next-trust amount. 
+    Here $0 \leq \alpha \leq 1$ and is set by the initial trust creator
+\end{itemize}
+
+I think all this would take is one rich person to do, and eventually (we’re talking decades or centuries depending on market conditions and how many are made initially) you’d have a large-scale government-independent universal basic income. \par
+
+Also these could function equally effectively through smart-contracts on the blockchain as they could with legal-contract trust funds
+
+\vspace{0.1in}
+\hline
+\vspace{0.1in}
+
+
+\end{document}
